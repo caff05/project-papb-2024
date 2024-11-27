@@ -249,38 +249,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.663" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:background="@drawable/test1"
-        android:contentDescription="Preview Gambar"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
-
-    <Button
-        android:id="@+id/btnPickImage"
-        android:layout_width="80dp"
-        android:layout_height="30dp"
-        android:backgroundTint="#3C88D9"
-        android:text="Pilih "
-        android:textColorHint="#3C88D9"
-        android:textColorLink="#3C88D9"
-        android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.438"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736"
-        app:rippleColor="#3C88D9"
-        app:strokeColor="#3C88D9" />
-
     <TextView
         android:id="@+id/PeriodeMulai"
         android:layout_width="wrap_content"
@@ -294,6 +262,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.47" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Tempat untuk memuat Fragment -->
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

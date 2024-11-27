@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Loker"
+rootProject.name = "Loker After Fragment"
 include ':app'

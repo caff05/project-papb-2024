@@ -1,0 +1,43 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnPickImage"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="452dp"
+        android:backgroundTint="#3C88D9"
+        android:text="Pilih"
+        android:textColorLink="#3C88D9"
+        android:textSize="6sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="121dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="Image View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPickImage" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#f0f0f0"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
