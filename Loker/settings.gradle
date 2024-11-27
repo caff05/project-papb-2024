@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Loker After Fragment"
+rootProject.name = "Loker Firebase"
 include ':app'
