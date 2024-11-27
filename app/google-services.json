@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "960636349229",
+    "firebase_url": "https://lokermanager2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lokermanager2",
+    "storage_bucket": "lokermanager2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960636349229:android:ba1c3762baf511383601a4",
+        "android_client_info": {
+          "package_name": "com.example.lokermanager2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2DMtr3GVLMQMk7BXeAdy9uTJHE1IhBgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
