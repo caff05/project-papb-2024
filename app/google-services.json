@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1087003852998",
+    "firebase_url": "https://lokerpenyimpanan-1d372-default-rtdb.firebaseio.com",
+    "project_id": "lokerpenyimpanan-1d372",
+    "storage_bucket": "lokerpenyimpanan-1d372.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087003852998:android:5a1cf7d36f072ca0b817c7",
+        "android_client_info": {
+          "package_name": "com.example.fragmentpractice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMGB64pG653gr4uxEAVMvpXT2Z8gSXNkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087003852998:android:150340f6b469a8fdb817c7",
+        "android_client_info": {
+          "package_name": "zi.mobile.loker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMGB64pG653gr4uxEAVMvpXT2Z8gSXNkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

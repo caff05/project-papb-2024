@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tambahItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Tambah Item"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAF8F8"
+        app:layout_constraintBottom_toBottomOf="@id/tambahItem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tambahItem"
+        app:srcCompat="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/NamaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/work_sans_semibold"
+        android:text="Nama Barang"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back_button" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/namaBarangTI"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/test1"
+        android:fontFamily="@font/work_sans"
+        android:imeActionLabel="Nama Barang"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/NamaBarang" />
+
+    <TextView
+        android:id="@+id/NamaPenitip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/work_sans_semibold"
+        android:text="Nama Penitip"
+        android:textColor="#000000"
+        android:textColorHighlight="#00DE0505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/namaBarangTI" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/namaPenitipTI"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/test1"
+        android:fontFamily="@font/work_sans"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintTop_toBottomOf="@id/NamaPenitip" />
+
+    <TextView
+        android:id="@+id/AlamatPenitip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/work_sans_semibold"
+        android:text="Alamat Penitip"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/namaPenitipTI" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/alamatPenitipTI"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/test1"
+        android:fontFamily="@font/work_sans"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/design_default_color_on_primary"
+        android:textColorHint="#000000"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintTop_toBottomOf="@id/AlamatPenitip" />
+
+    <TextView
+        android:id="@+id/PeriodeMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/work_sans_semibold"
+        android:text="Periode Mulai"
+        android:textColor="#040404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alamatPenitipTI" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/periodeMulaiTI"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/test1"
+        android:fontFamily="@font/work_sans"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/design_default_color_background"
+        android:textColorHint="#000000"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PeriodeMulai" />
+
+    <TextView
+        android:id="@+id/PeriodeSelesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/work_sans_semibold"
+        android:text="Periode Selesai"
+        android:textColor="#040404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/periodeMulaiTI" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/periodeSelesaiTI"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/test1"
+        android:fontFamily="@font/work_sans"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PeriodeSelesai" />
+
+    <TextView
+        android:id="@+id/Foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/work_sans_semibold"
+        android:text="Foto Barang"
+        android:textColor="#070707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/periodeSelesaiTI" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/test1"
+        android:contentDescription="Preview Gambar"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Foto" />
+
+    <Button
+        android:id="@+id/btnPickImage"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="#3C88D9"
+        android:text="Pilih "
+        android:textColorHint="#3C88D9"
+        android:textColorLink="#3C88D9"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/Foto"
+        app:rippleColor="#3C88D9"
+        app:strokeColor="#3C88D9" />
+
+    <TextView
+        android:id="@+id/KategoriItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/work_sans_semibold"
+        android:text="Kategori Item"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/kategoriItemTI"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/test1"
+        android:fontFamily="@font/work_sans"
+        android:imeActionLabel="Nama Barang"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintTop_toBottomOf="@id/KategoriItem" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#3C88D9"
+        android:text="Simpan"
+        android:textColorLink="#3C88D9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
